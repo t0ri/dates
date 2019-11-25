@@ -8,4 +8,5 @@ var Deight = /** @class */ (function () {
     }
     return Deight;
 }());
-module.exports = Deight;
+
+export default Deight;

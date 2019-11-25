@@ -1,7 +1,8 @@
-(function (factory) {
+(function (global, factory) {
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
-	factory();
-}((function () { 'use strict';
+	(global = global || self, global.yourModule = factory());
+}(this, (function () { 'use strict';
 
 	var Deight = /** @class */ (function () {
 	    function Deight() {
@@ -13,6 +14,7 @@
 	    }
 	    return Deight;
 	}());
-	module.exports = Deight;
+
+	return Deight;
 
 })));
