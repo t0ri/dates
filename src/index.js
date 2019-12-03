@@ -6,6 +6,15 @@ var Deight = /** @class */ (function () {
         }
         this.date = new Date(args);
     }
+    Object.defineProperty(Deight.prototype, "year", {
+        get: function () {
+            return this.date.getFullYear();
+        },
+        enumerable: true,
+        configurable: true
+    });
     return Deight;
 }());
 module.exports = Deight;
+// const date = new Deight('2/19/98')
+// date.year

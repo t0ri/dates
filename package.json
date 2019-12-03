@@ -1,17 +1,17 @@
 {
-  "name": "@tori/dates",
+  "name": "@t0ri/dates",
   "version": "1.0.0",
-  "description": "",
-  "main": "umd/jus-in-case.js",
-  "module": "esm/index.js",
+  "description": "![Travis (.com)](https://img.shields.io/travis/com/t0ri/dates?style=flat-square) ![Coveralls github](https://img.shields.io/coveralls/github/t0ri/dates?style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/t0ri/dates?style=flat-square)",
+  "main": "umd/dates.js",
+  "module": "esm/dates.js",
   "files": [
     "esm/*",
     "emd/*"
   ],
   "types": "esm/index.d.ts",
   "scripts": {
-    "test": "jest",
     "prepare": "rollup --config",
+    "test": "jest",
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
@@ -36,5 +36,9 @@
     "rollup-plugin-typescript2": "^0.25.2",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.2"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {}
 }

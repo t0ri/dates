@@ -1,11 +1,12 @@
 /* eslint-disable global-require */
-// import { terser } from 'rollup-plugin-terser'
+import { terser } from 'rollup-plugin-terser'
 import typescript from 'rollup-plugin-typescript2'
 
 export default [
   {
     input: 'src/index.ts',
     plugins: [
+      terser(),
       typescript({
         typescript: require('typescript'),
       }),
@@ -20,6 +21,7 @@ export default [
   {
     input: 'src/index.ts',
     plugins: [
+      terser(),
       typescript({
         typescript: require('typescript'),
       }),

@@ -1,12 +1,1 @@
-var Deight = /** @class */ (function () {
-    function Deight() {
-        var args = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            args[_i] = arguments[_i];
-        }
-        this.date = new Date(args);
-    }
-    return Deight;
-}());
-
-export default Deight;
+var t=function(){for(var t=[],e=0;e<arguments.length;e++)t[e]=arguments[e];this.date=new Date(t)};export default t;
