@@ -17,7 +17,10 @@ const date = new Deight('2/19/1998')
 date.year -> 1998
 ```
 ### Month
-
+```
+const date = new Deight('2/19/1998')
+date.month -> 'February'
+```
 ### Day
 
 ### Hour

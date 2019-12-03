@@ -10,4 +10,16 @@ describe('Deight getters return', () => {
   test('full year', () => {
     expect(new Deight('2/19/98').year).toBe(1998)
   })
+
+  test('month name', () => {
+    expect(new Deight('2/19/98').month).toBe('February')
+  })
+
+  test('weekday name', () => {
+    expect(new Deight('2/19/98').weekday).toBe('Thursday')
+  })
+
+  test('day of month', () => {
+    expect(new Deight('2/19/98').day).toBe(19)
+  })
 })

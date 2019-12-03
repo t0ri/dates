@@ -13,8 +13,52 @@ var Deight = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
+    Object.defineProperty(Deight.prototype, "month", {
+        get: function () {
+            var months = [
+                'January',
+                'February',
+                'March',
+                'April',
+                'May',
+                'June',
+                'July',
+                'August',
+                'September',
+                'October',
+                'November',
+                'December'
+            ];
+            return months[this.date.getMonth()];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Deight.prototype, "weekday", {
+        get: function () {
+            var days = [
+                'Sunday',
+                'Monday',
+                'Tuesday',
+                'Wednesday',
+                'Thursday',
+                'Friday',
+                'Saturday'
+            ];
+            return days[this.date.getDay()];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Deight.prototype, "day", {
+        get: function () {
+            return this.date.getDate();
+        },
+        enumerable: true,
+        configurable: true
+    });
     return Deight;
 }());
-module.exports = Deight;
 // const date = new Deight('2/19/98')
 // date.year
+module.exports = Deight;
