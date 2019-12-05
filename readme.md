@@ -48,7 +48,7 @@ Deight objects can return their date and time formatted with many options.
 const date = new Deight('2/19/1998 13:15:30')
 date.format('M d, Y') -> 'February 19, 1998'
 ```
-Format Key
+### Format Key
 
 'Y' -> 2019
 
