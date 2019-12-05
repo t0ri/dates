@@ -22,15 +22,41 @@ const date = new Deight('2/19/1998')
 date.month -> 'February'
 ```
 ### Day
+```
+const date = new Deight('2/19/1998')
+date.month -> 'February'
+```
+### Hours
+```
+const date = new Deight('2/19/1998 13:15:30')
+date.hours -> 13
+```
+### Minutes
+```
+const date = new Deight('2/19/1998 13:15:30')
+date.minutes -> 15
+```
+### Seconds
+```
+const date = new Deight('2/19/1998 13:15:30')
+date.seconds -> 30
+```
 
-### Hour
-
-### Minute
-
-### Second
-console.log(d.year())  // 2019 fullYear
-console.log(d.month()) // July 6
-console.log(d.day())   // 27
-console.log(d.hours()) // 18
-console.log(d.mins()) // 6
-console.log(d.secs()) // 5
+## Format Mask
+Deight objects can return their date and time formatted with many options.
+```
+const date = new Deight('2/19/1998 13:15:30')
+date.format('') -> 
+```
+'Y' -> 2019
+'y' -> 19
+'M' -> July
+'m' -> Jul
+'D' -> 01
+'d' -> 1
+'H' -> 05
+'h' -> 5
+'I' -> 08
+'i' -> 8
+'S' -> 04
+'s' -> 4
