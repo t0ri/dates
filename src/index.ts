@@ -1,5 +1,5 @@
 class Deight {
-	date: Date
+	date: any
 	
 	constructor(...args: any) {
 		this.date = new Date(args)
