@@ -1,6 +1,6 @@
 {
   "name": "@t0ri/dates",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "![Travis (.com)](https://img.shields.io/travis/com/t0ri/dates?style=flat-square) ![Coveralls github](https://img.shields.io/coveralls/github/t0ri/dates?style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/t0ri/dates?style=flat-square)",
   "main": "umd/dates.js",
   "module": "esm/dates.js",
