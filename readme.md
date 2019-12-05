@@ -49,15 +49,35 @@ const date = new Deight('2/19/1998 13:15:30')
 date.format('M d, Y') -> 'February 19, 1998'
 ```
 Format Key
+
 'Y' -> 2019
+
 'y' -> 19
+
 'M' -> July
+
 'm' -> Jul
+
 'D' -> 01
+
 'd' -> 1
+
 'H' -> 05
+
 'h' -> 5
+
 'I' -> 08
+
 'i' -> 8
+
 'S' -> 04
+
 's' -> 4
+
+## When
+Deight's `when()` method will return how many days, months, or years ago or until a given date.
+```
+const date = new Deight('2/19/1998 13:15:30')
+date.when('2/22/1998') -> '3 days from now'
+date.when('2/22/1997') -> '1 year ago'
+```

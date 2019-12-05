@@ -218,4 +218,4 @@ var Deight = /** @class */ (function () {
     return Deight;
 }());
 module.exports = Deight;
-console.log(new Deight('2/19/98').when());
+console.log(new Deight('2/19/98').when('2/22/1997'));
