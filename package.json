@@ -40,5 +40,5 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {}
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
