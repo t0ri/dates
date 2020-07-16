@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/t0ri/dates.git"
+    "url": "git+https://github.com/t0ri/deights.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/t0ri/dates/issues"
+    "url": "https://github.com/t0ri/deights/issues"
   },
-  "homepage": "https://github.com/t0ri/dates#readme",
+  "homepage": "https://github.com/t0ri/deights#readme",
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "coveralls": "^3.0.8",
@@ -39,8 +39,5 @@
   },
   "directories": {
     "test": "tests"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
